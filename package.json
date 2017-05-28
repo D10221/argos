@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "process args",
   "main": "index.js",
+  "typings": "./built/index.d.ts",
   "scripts": {
     "test": "mocha test.js",
     "build": "tsc -p .",
