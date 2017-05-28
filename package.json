@@ -1,6 +1,6 @@
 {
   "name": "argos",
-  "version": "1.0.1",
+  "version": "1.0.2-0",
   "description": "process args",
   "main": "index.js",
   "typings": "./built/index.d.ts",
@@ -8,7 +8,7 @@
   "scripts": {
     "test": "mocha test.js",
     "build": "tsc -p .",
-    "clean": "rimraf ./built",  
+    "clean": "rimraf ./built",
     "release": "rimraf ./lib && tsc -p tsconfig.prod.json"
   },
   "author": "D10221",
