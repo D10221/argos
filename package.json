@@ -4,6 +4,7 @@
   "description": "process args",
   "main": "index.js",
   "typings": "./built/index.d.ts",
+  "private": true,
   "scripts": {
     "test": "mocha test.js",
     "build": "tsc -p .",
