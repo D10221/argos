@@ -1,1 +1,1 @@
-require("./built/index");
+require("./dist/index");

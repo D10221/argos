@@ -3,7 +3,7 @@
   "version": "1.0.2-0",
   "description": "process args",
   "main": "index.js",
-  "typings": "./built/index.d.ts",
+  "typings": "./dist/index.d.ts",
   "private": true,
   "scripts": {
     "test": "mocha test.js",
