@@ -1,0 +1,17 @@
+{
+  "name": "argos",
+  "version": "1.0.0",
+  "description": "process args",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "build": "tsc -p .",
+    "clean": "rimraf ./built"
+  },
+  "author": "D10221",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "typescript": "^2.3.3"
+  }
+}
