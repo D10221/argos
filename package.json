@@ -7,7 +7,8 @@
   "scripts": {
     "test": "mocha test.js",
     "build": "tsc -p .",
-    "clean": "rimraf ./built"
+    "clean": "rimraf ./built",  
+    "release": "rimraf ./lib && tsc -p tsconfig.prod.json"
   },
   "author": "D10221",
   "license": "ISC",
