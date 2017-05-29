@@ -4,3 +4,9 @@ export interface KeyValue {
     key?: string;
     value?: KeyValueType;
 }
+export interface ArgDescription {
+    key: string;
+    displayName?: string;
+    required?: boolean;
+    type?: KeyValueTypeKeys;
+}

@@ -4,7 +4,7 @@ import { KeyValue } from "./types";
 
 /**
  * @summary value retriever helper for "_" key in List
- * @param list {KeyValue[]} - list of {key,value} 
+ * @param list {KeyValue[]} - list of {key,value}
  */
 export const Params = (list: KeyValue[]) => {
 
@@ -15,7 +15,7 @@ export const Params = (list: KeyValue[]) => {
     const isNull = _isNull(value);
 
     /**
-     * 
+     *
      * @returns  {List<string>} - empty if null, if array return space separated list items as one string
      */
     const toString = (): string => {
@@ -38,7 +38,7 @@ export const Params = (list: KeyValue[]) => {
     };
 
     /**
-     * 
+     *
      * @returns {List<string>} value/values to list
      */
     const toList = (): string[] => {
@@ -50,4 +50,4 @@ export const Params = (list: KeyValue[]) => {
     return  {
         toString, toNumber, toBool, toList, values, isNull
     };
-}
+};

@@ -25,7 +25,10 @@ const convert = (x: string) => {
 };
 
 const isFlag = (x: string) => /^\-.*/.test(x);
-
+/**
+ * @return {KeyValue[]} where key: "_" is non flag/switch parameter|s
+ * @param args {string[]} - typically process.argv.slice(2)
+ */
 export const parse = (args: string[]) => {
 
     const empty = "_";
